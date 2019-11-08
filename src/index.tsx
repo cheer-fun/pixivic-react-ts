@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import 'amfe-flexible/index.js';
+import './index.styl';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
