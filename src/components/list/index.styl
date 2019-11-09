@@ -1,0 +1,42 @@
+@import '../../assets/stylus/variable.styl'
+.list-scroll
+  width 100%
+  height 100%
+  overflow hidden
+  .list-content
+    padding-bottom 40px
+    .list
+      // display inline-block
+      // column-count 2 
+      // column-gap 10px
+      width 100%
+      padding 10px 10px 0
+      box-sizing border-box
+      background $white
+      display flex
+      justify-content space-between
+      // align-items center
+      >div
+        width 48%
+      &__item
+        position relative
+        margin-bottom 8px
+        img
+          width 100%
+          border-radius 10px
+        .count
+          position absolute
+          bottom 10px
+          right 8px
+          background #0000009e
+          font-size 14px
+          padding 3px 6px
+          color $white
+    .pullup-wrapper
+      text-align center
+      color #999
+      font-size 18px
+      .after-trigger
+        display flex
+        align-items center
+        justify-content center
